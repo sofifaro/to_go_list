@@ -1,0 +1,6 @@
+2026-05-30T00:36:47.523397	DEBUG	todoapp/main.go:32	Start Of Initialization Pool For DB
+2026-05-30T00:36:47.550808	DEBUG	todoapp/main.go:39	Initialization of feature:	{"feature": "users"}
+2026-05-30T00:36:47.550849	DEBUG	todoapp/main.go:45	Users HTTP handler initialized
+2026-05-30T00:36:47.552352	WARN	server/server.go:56	start HTTP server	{"addr": ":5050"}
+2026-05-30T00:37:49.407167	WARN	server/server.go:71	shutdown HTTP server
+2026-05-30T00:37:49.416545	WARN	server/server.go:85	HTTP server stopped

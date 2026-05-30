@@ -1,0 +1,6 @@
+2026-05-27T14:02:13.286447	DEBUG	todoapp/main.go:29	Start Of The Application
+2026-05-27T14:02:13.287389	WARN	server/server.go:56	start HTTP server	{"addr": ":5050"}
+2026-05-27T14:02:19.107811	DEBUG	middleware/common.go:77	>>> incoming HTTP request	{"request_id": "68adbb54-530f-46e9-83a0-05850c4d6c7b", "url": "/api/v1/users/", "time": "2026-05-27T11:02:19.107807"}
+2026-05-27T14:02:19.108108	DEBUG	middleware/common.go:84	<<< done HTTP request	{"request_id": "68adbb54-530f-46e9-83a0-05850c4d6c7b", "url": "/api/v1/users/", "status code": 404, "latency": "299.791µs"}
+2026-05-27T14:06:34.554693	WARN	server/server.go:71	shutdown HTTP server
+2026-05-27T14:06:34.556163	WARN	server/server.go:85	HTTP server stopped

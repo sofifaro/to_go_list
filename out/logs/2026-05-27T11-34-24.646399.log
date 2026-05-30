@@ -1,0 +1,7 @@
+2026-05-27T14:34:24.646547	DEBUG	todoapp/main.go:29	Start Of The Application
+2026-05-27T14:34:24.646993	WARN	server/server.go:52	start HTTP server	{"addr": ":5050"}
+2026-05-27T14:37:26.900274	DEBUG	middleware/common.go:77	>>> incoming HTTP request	{"request_id": "4914b910-4d45-4757-ac90-d56fa73a31fc", "url": "/api/v1/users", "time": "2026-05-27T11:37:26.900268"}
+2026-05-27T14:37:26.900650	DEBUG	http/create_user.go:27	Create User Handler is invoked	{"request_id": "4914b910-4d45-4757-ac90-d56fa73a31fc", "url": "/api/v1/users"}
+2026-05-27T14:37:26.901355	DEBUG	middleware/common.go:84	<<< done HTTP request	{"request_id": "4914b910-4d45-4757-ac90-d56fa73a31fc", "url": "/api/v1/users", "status code": 200, "latency": "1.084333ms"}
+2026-05-27T14:41:02.456785	DEBUG	middleware/common.go:77	>>> incoming HTTP request	{"request_id": "f944a230-9212-4a62-9b6a-ac7cd8cedecc", "url": "/api/v2/users", "time": "2026-05-27T11:41:02.455382"}
+2026-05-27T14:41:02.458872	DEBUG	middleware/common.go:84	<<< done HTTP request	{"request_id": "f944a230-9212-4a62-9b6a-ac7cd8cedecc", "url": "/api/v2/users", "status code": 404, "latency": "3.488875ms"}

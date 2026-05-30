@@ -17,7 +17,7 @@ CREATE TABLE todoapp.tasks (
     title           VARCHAR(100)  NOT NULL      CHECK(char_length(title) BETWEEN 1 AND 100),
     description     VARCHAR(1000)               CHECK(char_length(description) BETWEEN 1 AND 1000),
     completed       BOOLEAN       NOT NULL,
-    created_at      TIMESTAMPTZ   NOT NULL,
+    created_at      TIMESTAMPTZ   NOT NULL, -- default now() or current_timestamp
     completed_at    TIMESTAMPTZ,
 
     CHECK (
