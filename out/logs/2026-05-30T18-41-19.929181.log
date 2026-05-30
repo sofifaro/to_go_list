@@ -1,0 +1,14 @@
+2026-05-30T21:41:19.929359	DEBUG	todoapp/main.go:32	Start Of Initialization Pool For DB
+2026-05-30T21:41:19.986498	DEBUG	todoapp/main.go:39	Initialization of feature:	{"feature": "users"}
+2026-05-30T21:41:19.986555	DEBUG	todoapp/main.go:45	Users HTTP handler initialized
+2026-05-30T21:41:19.986801	WARN	server/server.go:56	start HTTP server	{"addr": ":5050"}
+2026-05-30T21:41:38.012504	DEBUG	middleware/common.go:77	>>> incoming HTTP request	{"request_id": "8b477c9e-e2ff-4c56-8c6d-4aed6c54df82", "url": "/api/v1/users", "time": "2026-05-30T18:41:38.012502"}
+2026-05-30T21:41:38.013393	WARN	response/handler.go:55	failed to decode and validate CreateUser request	{"request_id": "8b477c9e-e2ff-4c56-8c6d-4aed6c54df82", "url": "/api/v1/users", "error": "validate request: Key: 'CreateUserRequest.FullName' Error:Field validation for 'FullName' failed on the 'required' tag: invalid argument"}
+2026-05-30T21:41:38.013535	DEBUG	middleware/common.go:84	<<< done HTTP request	{"request_id": "8b477c9e-e2ff-4c56-8c6d-4aed6c54df82", "url": "/api/v1/users", "status code": 400, "latency": "1.032042ms"}
+2026-05-30T21:45:05.810459	DEBUG	middleware/common.go:77	>>> incoming HTTP request	{"request_id": "47da38b9-ec5d-44df-8054-d62c8b3551cf", "url": "/api/v1/users", "time": "2026-05-30T18:45:05.808069"}
+2026-05-30T21:45:05.815944	WARN	response/handler.go:55	failed to decode and validate CreateUser request	{"request_id": "47da38b9-ec5d-44df-8054-d62c8b3551cf", "url": "/api/v1/users", "error": "decode JSON request: invalid character 'a' looking for beginning of value: invalid argument"}
+2026-05-30T21:45:05.817547	DEBUG	middleware/common.go:84	<<< done HTTP request	{"request_id": "47da38b9-ec5d-44df-8054-d62c8b3551cf", "url": "/api/v1/users", "status code": 400, "latency": "9.477792ms"}
+2026-05-30T21:46:04.548680	DEBUG	middleware/common.go:77	>>> incoming HTTP request	{"request_id": "c19bdc93-75b5-4f36-9530-88ce94daa12f", "url": "/api/v1/users", "time": "2026-05-30T18:46:04.548656"}
+2026-05-30T21:46:04.608729	DEBUG	middleware/common.go:84	<<< done HTTP request	{"request_id": "c19bdc93-75b5-4f36-9530-88ce94daa12f", "url": "/api/v1/users", "status code": 201, "latency": "60.072083ms"}
+2026-05-30T21:47:28.772095	WARN	server/server.go:71	shutdown HTTP server
+2026-05-30T21:47:28.779527	WARN	server/server.go:85	HTTP server stopped

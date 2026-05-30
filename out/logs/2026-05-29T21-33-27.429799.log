@@ -1,0 +1,2 @@
+2026-05-30T00:33:27.430543	DEBUG	todoapp/main.go:32	Start Of Initialization Pool For DB
+2026-05-30T00:33:27.458307	FATAL	todoapp/main.go:35	failed to init postgres connection pool%!(EXTRA zapcore.Field={error 26 0  ping database: failed to connect to `user=test-user-123 database=test-db-123`: [::1]:5432 (localhost): failed SASL auth: FATAL: password authentication failed for user "test-user-123" (SQLSTATE 28P01)})

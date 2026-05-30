@@ -1,0 +1,12 @@
+2026-05-30T00:40:52.941854	DEBUG	todoapp/main.go:32	Start Of Initialization Pool For DB
+2026-05-30T00:40:52.979355	DEBUG	todoapp/main.go:39	Initialization of feature:	{"feature": "users"}
+2026-05-30T00:40:52.979398	DEBUG	todoapp/main.go:45	Users HTTP handler initialized
+2026-05-30T00:40:52.980954	WARN	server/server.go:56	start HTTP server	{"addr": ":5050"}
+2026-05-30T00:54:44.841363	DEBUG	middleware/common.go:77	>>> incoming HTTP request	{"request_id": "8c385b26-baef-46ca-b8de-6918919158c8", "url": "/api/v1/users", "time": "2026-05-29T21:54:44.841362"}
+2026-05-30T00:54:44.844089	ERROR	response/handler.go:55	failed to decode and validate CreateUser request	{"request_id": "8c385b26-baef-46ca-b8de-6918919158c8", "url": "/api/v1/users", "error": "decode JSON request: EOF"}
+2026-05-30T00:54:44.846500	DEBUG	middleware/common.go:84	<<< done HTTP request	{"request_id": "8c385b26-baef-46ca-b8de-6918919158c8", "url": "/api/v1/users", "status code": 500, "latency": "5.137542ms"}
+2026-05-30T00:55:30.627399	DEBUG	middleware/common.go:77	>>> incoming HTTP request	{"request_id": "3c00e15f-d505-47a0-9292-8b467f148700", "url": "/api/v1/users", "time": "2026-05-29T21:55:30.627398"}
+2026-05-30T00:55:30.639951	ERROR	response/handler.go:55	failed to decode and validate CreateUser request	{"request_id": "3c00e15f-d505-47a0-9292-8b467f148700", "url": "/api/v1/users", "error": "validate request: Key: 'CreateUserRequest.FullName' Error:Field validation for 'FullName' failed on the 'required' tag"}
+2026-05-30T00:55:30.640486	DEBUG	middleware/common.go:84	<<< done HTTP request	{"request_id": "3c00e15f-d505-47a0-9292-8b467f148700", "url": "/api/v1/users", "status code": 500, "latency": "13.087834ms"}
+2026-05-30T21:41:13.980978	WARN	server/server.go:71	shutdown HTTP server
+2026-05-30T21:41:13.996581	WARN	server/server.go:85	HTTP server stopped

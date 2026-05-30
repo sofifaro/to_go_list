@@ -1,0 +1,4 @@
+2026-05-30T00:25:02.077209	DEBUG	todoapp/main.go:32	Start Of Initialization Pool For DB
+2026-05-30T00:25:02.082416	FATAL	todoapp/main.go:35	failed to init postgres connection pool%!(EXTRA zapcore.Field={error 26 0  ping database: failed to connect to `user=test-user-123 database=test-db-123`:
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused})
